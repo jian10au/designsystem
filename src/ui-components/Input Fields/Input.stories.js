@@ -1,13 +1,11 @@
 import { boolean, number, text, withKnobs } from "@storybook/addon-knobs";
 
-import Button from './Button';
 import React from 'react';
+import Input from './Input'
 import { unit } from "../../style-constants";
 
-export default { title: 'Button', decorators: [withKnobs] };
+export default { title: 'Input Fields', decorators: [withKnobs] };
 
 export const withText = () => <div style={{display: 'inline-block', width: unit(13.5)}}>
-    <Button iconSrc="">
-        {text("Text", "Click me")}
-    </Button>
+    <Input type="text">>{text("Text", "Click me")}</Input>
 </div>;
