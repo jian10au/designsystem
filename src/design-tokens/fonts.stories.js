@@ -6,21 +6,9 @@ storiesOf("Design tokens", module).add("Fonts", () => (
   <div>
     <h1>Fonts</h1>
     <p></p>
-    <div style={{ fontFamily: Fonts.headingFont, fontSize: 20 }}>Heading</div>
-    <div style={{ fontFamily: Fonts.headingFont, fontSize: 16 }}>
-      Sub-Heading
-    </div>
-    <div style={{ fontFamily: Fonts.bodyFont, fontSize: Fonts.bodySize }}>
-      Body
-    </div>
-    <div
-      style={{
-        fontFamily: Fonts.bodyFont,
-        fontSize: Fonts.bodySize,
-        fontStyle: "italic"
-      }}
-    >
-      Reference
-    </div>
+    <div style={{ fontSize: Fonts.large }}>Heading uses large font</div>
+    <div style={{ fontSize: Fonts.medium }}>Sub-Heading uses medium font</div>
+    <div>Body text uses default font</div>
+    <div style={{ fontSize: Fonts.small }}>Footer Text uses the small font</div>
   </div>
 ));
