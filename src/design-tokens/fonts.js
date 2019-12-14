@@ -1,5 +1,5 @@
 export const Fonts = {
-  headingFont: "Arial",
-  bodyFont: "Times New Roman",
-  bodySize: "14"
+  large: "1.5rem",
+  medium: "1.25rem",
+  small: "0.825rem"
 };
