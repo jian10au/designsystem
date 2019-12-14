@@ -1,3 +1,5 @@
 export const Fonts = {
-  hotRed: "hsl(352%, 63%, 45%)"
+  headingFont: "Arial",
+  bodyFont: "Times New Roman",
+  bodySize: "14"
 };
